@@ -3,7 +3,7 @@ requires = ["setuptools>=68","wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "thc4me"
+name = "unv"
 version = "0.3.2"
 requires-python = ">=3.9"
 dependencies = ["lief","pefile","fastapi","uvicorn","python-multipart"]
@@ -12,8 +12,8 @@ readme = "README.md"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["thc4me*"]
+include = ["unv*"]
 
 [project.scripts]
-thc4me = "thc4me.cli:main"
-thc4me-daemon = "thc4me.daemon:main"
+unv = "unv.cli:main"
+unv-daemon = "unv.daemon:main"

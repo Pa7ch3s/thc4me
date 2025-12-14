@@ -3,13 +3,13 @@
 """
 THC4me CLI — first-cut static scanner + sqlmap-style toolkit
 Usage examples:
-  thc4me.cli.py scan app.apk --pretty --out out.json
-  thc4me.cli.py strings app.apk --min-len 5 --max-lines 2000
-  thc4me.cli.py imports sample.exe
-  thc4me.cli.py entropy sample.exe
-  thc4me.cli.py manifest app.apk
-  thc4me.cli.py tools --check
-  thc4me.cli.py manual
+  unv.cli.py scan app.apk --pretty --out out.json
+  unv.cli.py strings app.apk --min-len 5 --max-lines 2000
+  unv.cli.py imports sample.exe
+  unv.cli.py entropy sample.exe
+  unv.cli.py manifest app.apk
+  unv.cli.py tools --check
+  unv.cli.py manual
 """
 
 import argparse, hashlib, json, mimetypes, os, re, shutil, subprocess, sys, uuid
@@ -18,7 +18,7 @@ from pathlib import Path
 
 # -------- Optional deep parsers --------
 try:
-    from thc4me_static_parser import analyze as static_analyze  # preferred
+    from unv_static_parser import analyze as static_analyze  # preferred
 except Exception:
     static_analyze = None
 
@@ -317,7 +317,7 @@ def scan_file(path: Path):
     if findings:
         scan_obj["findings"].extend(findings)
 
-    # Optional deeper analysis via thc4me_static_parser
+    # Optional deeper analysis via unv_static_parser
     if static_analyze:
         try:
             deep = static_analyze(path)

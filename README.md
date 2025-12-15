@@ -2,7 +2,8 @@
 
 Static triage CLI for executable and packaged artifacts.
 
-unv is built for fast, local inspection when you need signal immediately — not a framework, not a sandbox, not exploitation.
+unv is built for fast, local inspection when you need signal immediately. 
+Not a framework, not a sandbox, not exploitation.
 
 ---
 

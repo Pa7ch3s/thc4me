@@ -1,4 +1,4 @@
-# unveil (unv)
+# Unveil (unv)
 
 Static triage CLI for executable and packaged artifacts.
 

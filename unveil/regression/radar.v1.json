@@ -1,0 +1,1329 @@
+{
+  "metadata": {
+    "target": "/Applications"
+  },
+  "files_analyzed": 40,
+  "results": [
+    {
+      "class": "NATIVE",
+      "file": "/Applications/PlayerLocationCheck.app/Contents/MacOS/PlayerLocationCheck",
+      "analysis": {
+        "target": "PlayerLocationCheck",
+        "imports": [
+          {
+            "path": "PlayerLocationCheck",
+            "binary": "macho",
+            "imports": [
+              "/Applications/PlayerLocationCheck.app/Contents/MacOS/PlayerLocationCheck",
+              "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+              "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa",
+              "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+              "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+              "/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation",
+              "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+              "/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText",
+              "/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN",
+              "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+              "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+              "/System/Library/Frameworks/LDAP.framework/Versions/A/LDAP",
+              "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+              "/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement",
+              "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libbsm.0.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "/usr/lib/libiconv.2.dylib",
+              "/usr/lib/libobjc.A.dylib",
+              "/usr/lib/libxml2.2.dylib"
+            ]
+          }
+        ],
+        "entropy": 6.7851
+      }
+    },
+    {
+      "class": "QT_PLUGIN_RPATH_HIJACK",
+      "file": "/Applications/IDA Free 9.1.app/Contents/MacOS/Assistant",
+      "analysis": {
+        "target": "Assistant",
+        "imports": [
+          {
+            "path": "Assistant",
+            "binary": "macho",
+            "imports": [
+              "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+              "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+              "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+              "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+              "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+              "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "@rpath/QtCore.framework/Versions/5/QtCore",
+              "@rpath/QtGui.framework/Versions/5/QtGui",
+              "@rpath/QtHelp.framework/Versions/5/QtHelp",
+              "@rpath/QtNetwork.framework/Versions/5/QtNetwork",
+              "@rpath/QtPrintSupport.framework/Versions/5/QtPrintSupport",
+              "@rpath/QtSql.framework/Versions/5/QtSql",
+              "@rpath/QtWidgets.framework/Versions/5/QtWidgets"
+            ]
+          }
+        ],
+        "entropy": 6.3164
+      }
+    },
+    {
+      "class": "RELATIVE_RPATH_PIVOT",
+      "file": "/Applications/IDA Free 9.1.app/Contents/MacOS/libdwarf.dylib",
+      "analysis": {
+        "target": "libdwarf.dylib",
+        "imports": [
+          {
+            "path": "libdwarf.dylib",
+            "binary": "macho",
+            "imports": [
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "/usr/lib/libiconv.2.dylib",
+              "@executable_path/libdwarf.dylib"
+            ]
+          }
+        ],
+        "entropy": 6.2269
+      }
+    },
+    {
+      "class": "QT_PLUGIN_RPATH_HIJACK",
+      "file": "/Applications/IDA Free 9.1.app/Contents/MacOS/ida",
+      "analysis": {
+        "target": "ida",
+        "imports": [
+          {
+            "path": "ida",
+            "binary": "macho",
+            "imports": [
+              "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+              "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+              "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+              "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+              "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+              "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+              "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+              "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "/usr/lib/libobjc.A.dylib",
+              "@rpath/QtCore.framework/Versions/5/QtCore",
+              "@rpath/QtGui.framework/Versions/5/QtGui",
+              "@rpath/QtMacExtras.framework/Versions/5/QtMacExtras",
+              "@rpath/QtPrintSupport.framework/Versions/5/QtPrintSupport",
+              "@rpath/QtSvg.framework/Versions/5/QtSvg",
+              "@rpath/QtWidgets.framework/Versions/5/QtWidgets",
+              "@rpath/libida.dylib"
+            ]
+          }
+        ],
+        "entropy": 6.6974
+      }
+    },
+    {
+      "class": "QT_PLUGIN_RPATH_HIJACK",
+      "file": "/Applications/IDA Free 9.1.app/Contents/MacOS/qwingraph",
+      "analysis": {
+        "target": "qwingraph",
+        "imports": [
+          {
+            "path": "qwingraph",
+            "binary": "macho",
+            "imports": [
+              "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+              "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+              "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+              "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+              "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+              "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "@rpath/QtCore.framework/Versions/5/QtCore",
+              "@rpath/QtGui.framework/Versions/5/QtGui",
+              "@rpath/QtPrintSupport.framework/Versions/5/QtPrintSupport",
+              "@rpath/QtSvg.framework/Versions/5/QtSvg",
+              "@rpath/QtWidgets.framework/Versions/5/QtWidgets"
+            ]
+          }
+        ],
+        "entropy": 6.232
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/IDA Free 9.1.app/Contents/MacOS/libclpx.dylib",
+      "analysis": {
+        "target": "libclpx.dylib",
+        "imports": [
+          {
+            "path": "libclpx.dylib",
+            "binary": "macho",
+            "imports": [
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "@rpath/libclpx.dylib"
+            ]
+          }
+        ],
+        "entropy": 6.7513
+      }
+    },
+    {
+      "class": "QT_PLUGIN_RPATH_HIJACK",
+      "file": "/Applications/IDA Free 9.1.app/Contents/MacOS/picture_decoder",
+      "analysis": {
+        "target": "picture_decoder",
+        "imports": [
+          {
+            "path": "picture_decoder",
+            "binary": "macho",
+            "imports": [
+              "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+              "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+              "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+              "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+              "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+              "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "/usr/lib/libiconv.2.dylib",
+              "@rpath/QtCore.framework/Versions/5/QtCore",
+              "@rpath/QtGui.framework/Versions/5/QtGui"
+            ]
+          }
+        ],
+        "entropy": 1.3277
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/IDA Free 9.1.app/Contents/MacOS/libida.dylib",
+      "analysis": {
+        "target": "libida.dylib",
+        "imports": [
+          {
+            "path": "libida.dylib",
+            "binary": "macho",
+            "imports": [
+              "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa",
+              "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+              "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+              "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "/usr/lib/libiconv.2.dylib",
+              "@rpath/libida.dylib"
+            ]
+          }
+        ],
+        "entropy": 6.5359
+      }
+    },
+    {
+      "class": "ELECTRON_PRELOAD_RCE",
+      "file": "/Applications/TradingView.app/Contents/MacOS/TradingView",
+      "analysis": {
+        "target": "TradingView",
+        "imports": [
+          {
+            "path": "TradingView",
+            "binary": "macho",
+            "imports": [
+              "/Applications/TradingView.app/Contents/MacOS/TradingView",
+              "/usr/lib/libSystem.B.dylib",
+              "@rpath/Electron"
+            ]
+          }
+        ],
+        "entropy": 2.1696
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/Microsoft Defender Shim.app/Contents/MacOS/launcher",
+      "analysis": {
+        "target": "launcher",
+        "imports": [
+          {
+            "path": "launcher",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Microsoft",
+              "/usr/lib/libSystem.B.dylib"
+            ]
+          }
+        ],
+        "entropy": 1.4777
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+      "analysis": {
+        "target": "Google Chrome",
+        "imports": [
+          {
+            "path": "Google Chrome",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Google",
+              "/usr/lib/libSystem.B.dylib"
+            ]
+          }
+        ],
+        "entropy": 1.4906
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/Numbers.app/Contents/MacOS/Numbers",
+      "analysis": {
+        "target": "Numbers",
+        "imports": [
+          {
+            "path": "Numbers",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Numbers.app/Contents/MacOS/Numbers",
+              "/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation",
+              "/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate",
+              "/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts",
+              "/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents",
+              "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+              "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+              "/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon",
+              "/System/Library/Frameworks/Combine.framework/Versions/A/Combine",
+              "/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts",
+              "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+              "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+              "/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage",
+              "/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia",
+              "/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText",
+              "/System/Library/Frameworks/CoreTransferable.framework/Versions/A/CoreTransferable",
+              "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+              "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+              "/System/Library/Frameworks/Intents.framework/Versions/A/Intents",
+              "/System/Library/Frameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication",
+              "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+              "/System/Library/Frameworks/MetalKit.framework/Versions/A/MetalKit",
+              "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+              "/System/Library/Frameworks/SharedWithYou.framework/Versions/A/SharedWithYou",
+              "/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI",
+              "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+              "/System/Library/Frameworks/Vision.framework/Versions/A/Vision",
+              "/usr/lib/libDiagnosticMessagesClient.dylib",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "/usr/lib/libcompression.dylib",
+              "/usr/lib/libicucore.A.dylib",
+              "/usr/lib/libobjc.A.dylib",
+              "/usr/lib/libsqlite3.dylib",
+              "/usr/lib/libxml2.2.dylib",
+              "/usr/lib/libz.1.dylib",
+              "/usr/lib/swift/libswiftAVFoundation.dylib",
+              "/usr/lib/swift/libswiftCompression.dylib",
+              "/usr/lib/swift/libswiftCore.dylib",
+              "/usr/lib/swift/libswiftCoreAudio.dylib",
+              "/usr/lib/swift/libswiftCoreFoundation.dylib",
+              "/usr/lib/swift/libswiftCoreImage.dylib",
+              "/usr/lib/swift/libswiftCoreLocation.dylib",
+              "/usr/lib/swift/libswiftCoreMIDI.dylib",
+              "/usr/lib/swift/libswiftCoreMedia.dylib",
+              "/usr/lib/swift/libswiftDarwin.dylib",
+              "/usr/lib/swift/libswiftDispatch.dylib",
+              "/usr/lib/swift/libswiftFileProvider.dylib",
+              "/usr/lib/swift/libswiftGLKit.dylib",
+              "/usr/lib/swift/libswiftIOKit.dylib",
+              "/usr/lib/swift/libswiftIntents.dylib",
+              "/usr/lib/swift/libswiftMetal.dylib",
+              "/usr/lib/swift/libswiftModelIO.dylib",
+              "/usr/lib/swift/libswiftNaturalLanguage.dylib",
+              "/usr/lib/swift/libswiftOSLog.dylib",
+              "/usr/lib/swift/libswiftObjectiveC.dylib",
+              "/usr/lib/swift/libswiftQuartzCore.dylib",
+              "/usr/lib/swift/libswiftSceneKit.dylib",
+              "/usr/lib/swift/libswiftSpatial.dylib",
+              "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+              "/usr/lib/swift/libswiftWebKit.dylib",
+              "/usr/lib/swift/libswiftXPC.dylib",
+              "/usr/lib/swift/libswift_Concurrency.dylib",
+              "/usr/lib/swift/libswiftos.dylib",
+              "/usr/lib/swift/libswiftsimd.dylib",
+              "@rpath/AppAnalytics.framework/Versions/A/AppAnalytics",
+              "@rpath/EquationKit.framework/Versions/A/EquationKit",
+              "@rpath/TSAccessibility.framework/Versions/A/TSAccessibility",
+              "@rpath/TSApplication.framework/Versions/A/TSApplication",
+              "@rpath/TSCalculationEngine.framework/Versions/A/TSCalculationEngine",
+              "@rpath/TSCharts.framework/Versions/A/TSCharts",
+              "@rpath/TSCollaborationKit.framework/Versions/A/TSCollaborationKit",
+              "@rpath/TSContentLanguage.framework/Versions/A/TSContentLanguage",
+              "@rpath/TSCoreSOS.framework/Versions/A/TSCoreSOS",
+              "@rpath/TSDrawables.framework/Versions/A/TSDrawables",
+              "@rpath/TSKit.framework/Versions/A/TSKit",
+              "@rpath/TSPersistence.framework/Versions/A/TSPersistence",
+              "@rpath/TSStyles.framework/Versions/A/TSStyles",
+              "@rpath/TSTables.framework/Versions/A/TSTables",
+              "@rpath/TSText.framework/Versions/A/TSText",
+              "@rpath/TSUtility.framework/Versions/A/TSUtility"
+            ]
+          }
+        ],
+        "entropy": 6.6497
+      }
+    },
+    {
+      "class": "RELATIVE_RPATH_PIVOT",
+      "file": "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+      "analysis": {
+        "target": "OneDrive",
+        "imports": [
+          {
+            "path": "OneDrive",
+            "binary": "macho",
+            "imports": [
+              "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
+              "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+              "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa",
+              "/System/Library/Frameworks/Combine.framework/Versions/A/Combine",
+              "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+              "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+              "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+              "/System/Library/Frameworks/DeveloperToolsSupport.framework/Versions/A/DeveloperToolsSupport",
+              "/System/Library/Frameworks/FinderSync.framework/Versions/A/FinderSync",
+              "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+              "/System/Library/Frameworks/Intents.framework/Versions/A/Intents",
+              "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+              "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+              "/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement",
+              "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
+              "/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI",
+              "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",
+              "/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications",
+              "/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "/usr/lib/libobjc.A.dylib",
+              "/usr/lib/libsqlite3.dylib",
+              "/usr/lib/libxml2.2.dylib",
+              "/usr/lib/libz.1.dylib",
+              "/usr/lib/swift/libswiftCore.dylib",
+              "/usr/lib/swift/libswiftCoreFoundation.dylib",
+              "/usr/lib/swift/libswiftCoreImage.dylib",
+              "/usr/lib/swift/libswiftDarwin.dylib",
+              "/usr/lib/swift/libswiftDispatch.dylib",
+              "/usr/lib/swift/libswiftIOKit.dylib",
+              "/usr/lib/swift/libswiftMetal.dylib",
+              "/usr/lib/swift/libswiftOSLog.dylib",
+              "/usr/lib/swift/libswiftObjectiveC.dylib",
+              "/usr/lib/swift/libswiftQuartzCore.dylib",
+              "/usr/lib/swift/libswiftSpatial.dylib",
+              "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+              "/usr/lib/swift/libswiftXPC.dylib",
+              "/usr/lib/swift/libswift_Concurrency.dylib",
+              "/usr/lib/swift/libswiftos.dylib",
+              "/usr/lib/swift/libswiftsimd.dylib",
+              "@executable_path/../Frameworks/FileSyncFSCache.framework/Versions/A/FileSyncFSCache",
+              "@executable_path/../Frameworks/MSSyncEngine.framework/Versions/A/MSSyncEngine",
+              "@executable_path/../Frameworks/MacCrossPlatformUX.framework/Versions/A/MacCrossPlatformUX",
+              "@executable_path/../Frameworks/RNComponents.framework/Versions/A/RNComponents",
+              "@rpath/CxP.framework/Versions/A/CxP",
+              "@rpath/CxPImpl.framework/Versions/A/CxPImpl",
+              "@rpath/DatabaseManager.framework/Versions/A/DatabaseManager",
+              "@rpath/FileSyncFSDbfs.framework/Versions/A/FileSyncFSDbfs",
+              "@rpath/FileSyncFSDbfsMB.framework/Versions/A/FileSyncFSDbfsMB",
+              "@rpath/KFMDatabase.framework/Versions/A/KFMDatabase",
+              "@rpath/MERPWrapper.framework/Versions/A/MERPWrapper",
+              "@rpath/MSCommon.framework/Versions/A/MSCommon",
+              "@rpath/MSP2P.framework/Versions/A/MSP2P",
+              "@rpath/MacQtViews.framework/Versions/A/MacQtViews",
+              "@rpath/PlaceholderManager.framework/Versions/A/PlaceholderManager",
+              "@rpath/SettingsDatabase.framework/Versions/A/SettingsDatabase",
+              "@rpath/SupportDatabase.framework/Versions/A/SupportDatabase"
+            ]
+          }
+        ],
+        "entropy": 6.3388
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/FortiClientUninstaller.app/Contents/MacOS/Uninstall",
+      "analysis": {
+        "target": "Uninstall",
+        "imports": [
+          {
+            "path": "Uninstall",
+            "binary": "macho",
+            "imports": [
+              "/Applications/FortiClientUninstaller.app/Contents/MacOS/Uninstall",
+              "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+              "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa",
+              "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+              "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+              "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+              "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+              "/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "/usr/lib/libobjc.A.dylib",
+              "/usr/lib/libz.1.dylib"
+            ]
+          }
+        ],
+        "entropy": 5.5054
+      }
+    },
+    {
+      "class": "ELECTRON_PRELOAD_RCE",
+      "file": "/Applications/Cursor.app/Contents/MacOS/Cursor",
+      "analysis": {
+        "target": "Cursor",
+        "imports": [
+          {
+            "path": "Cursor",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Cursor.app/Contents/MacOS/Cursor",
+              "/usr/lib/libSystem.B.dylib",
+              "@rpath/Electron"
+            ]
+          }
+        ],
+        "entropy": 1.958
+      }
+    },
+    {
+      "class": "ELECTRON_PRELOAD_RCE",
+      "file": "/Applications/Obsidian.app/Contents/MacOS/Obsidian",
+      "analysis": {
+        "target": "Obsidian",
+        "imports": [
+          {
+            "path": "Obsidian",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Obsidian.app/Contents/MacOS/Obsidian",
+              "/usr/lib/libSystem.B.dylib",
+              "@rpath/Electron"
+            ]
+          }
+        ],
+        "entropy": 1.9444
+      }
+    },
+    {
+      "class": "ELECTRON_PRELOAD_RCE",
+      "file": "/Applications/FortiClient.app/Contents/MacOS/FortiClient",
+      "analysis": {
+        "target": "FortiClient",
+        "imports": [
+          {
+            "path": "FortiClient",
+            "binary": "macho",
+            "imports": [
+              "/usr/lib/libSystem.B.dylib",
+              "@rpath/Electron"
+            ]
+          }
+        ],
+        "entropy": 5.6718
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/Microsoft Outlook.app/Contents/MacOS/Microsoft Outlook",
+      "analysis": {
+        "target": "Microsoft Outlook",
+        "imports": [
+          {
+            "path": "Microsoft Outlook",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Microsoft",
+              "/System/Library/Frameworks/Accessibility.framework/Versions/A/Accessibility",
+              "/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents",
+              "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+              "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+              "/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox",
+              "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa",
+              "/System/Library/Frameworks/Combine.framework/Versions/A/Combine",
+              "/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts",
+              "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+              "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+              "/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage",
+              "/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation",
+              "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+              "/System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight",
+              "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+              "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+              "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+              "/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/JavaScriptCore",
+              "/System/Library/Frameworks/NetFS.framework/Versions/A/NetFS",
+              "/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz",
+              "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+              "/System/Library/Frameworks/QuickLookUI.framework/Versions/A/QuickLookUI",
+              "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+              "/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI",
+              "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",
+              "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+              "/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications",
+              "/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit",
+              "/System/Library/Frameworks/WidgetKit.framework/Versions/A/WidgetKit",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "/usr/lib/libobjc.A.dylib",
+              "/usr/lib/libresolv.9.dylib",
+              "/usr/lib/libxml2.2.dylib",
+              "/usr/lib/libz.1.dylib",
+              "/usr/lib/swift/libswiftAVFoundation.dylib",
+              "/usr/lib/swift/libswiftCore.dylib",
+              "/usr/lib/swift/libswiftCoreAudio.dylib",
+              "/usr/lib/swift/libswiftCoreFoundation.dylib",
+              "/usr/lib/swift/libswiftCoreGraphics.dylib",
+              "/usr/lib/swift/libswiftCoreImage.dylib",
+              "/usr/lib/swift/libswiftCoreLocation.dylib",
+              "/usr/lib/swift/libswiftCoreMIDI.dylib",
+              "/usr/lib/swift/libswiftCoreMedia.dylib",
+              "/usr/lib/swift/libswiftDarwin.dylib",
+              "/usr/lib/swift/libswiftDispatch.dylib",
+              "/usr/lib/swift/libswiftIOKit.dylib",
+              "/usr/lib/swift/libswiftIntents.dylib",
+              "/usr/lib/swift/libswiftMetal.dylib",
+              "/usr/lib/swift/libswiftOSLog.dylib",
+              "/usr/lib/swift/libswiftObjectiveC.dylib",
+              "/usr/lib/swift/libswiftObservation.dylib",
+              "/usr/lib/swift/libswiftQuartzCore.dylib",
+              "/usr/lib/swift/libswiftQuickLookUI.dylib",
+              "/usr/lib/swift/libswiftSpatial.dylib",
+              "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+              "/usr/lib/swift/libswiftXPC.dylib",
+              "/usr/lib/swift/libswift_Concurrency.dylib",
+              "/usr/lib/swift/libswiftos.dylib",
+              "/usr/lib/swift/libswiftsimd.dylib",
+              "@rpath/ADAL4.framework/Versions/A/ADAL4",
+              "@rpath/AppNexusNativeMacOSSDK.framework/Versions/A/AppNexusNativeMacOSSDK",
+              "@rpath/COMBase.framework/Versions/A/COMBase",
+              "@rpath/CalendarWidgetModelKit.framework/Versions/A/CalendarWidgetModelKit",
+              "@rpath/CocoaUI.framework/Versions/A/CocoaUI",
+              "@rpath/EditorKit.framework/Versions/A/EditorKit",
+              "@rpath/EmailRendererKit.framework/Versions/A/EmailRendererKit",
+              "@rpath/Hlink.framework/Versions/A/Hlink",
+              "@rpath/HxCore.framework/Versions/A/HxCore",
+              "@rpath/HxPlorer.framework/Versions/A/HxPlorer",
+              "@rpath/MicrosoftCSI.framework/Versions/A/MicrosoftCSI",
+              "@rpath/MicrosoftCredui.framework/Versions/A/MicrosoftCredui",
+              "@rpath/MicrosoftFontLibrary.framework/Versions/A/MicrosoftFontLibrary",
+              "@rpath/MsgrLibClient.framework/Versions/A/MsgrLibClient",
+              "@rpath/Netlib.framework/Versions/A/Netlib",
+              "@rpath/OLE.framework/Versions/A/OLE",
+              "@rpath/OLEAutomation.framework/Versions/A/OLEAutomation",
+              "@rpath/OLX.framework/Versions/A/OLX",
+              "@rpath/OPF.framework/Resources/OPF_Common.dylib",
+              "@rpath/OPF.framework/Versions/A/OPF",
+              "@rpath/OlkCalendarUIKit.framework/Versions/A/OlkCalendarUIKit",
+              "@rpath/OlkChromeUI.framework/Versions/A/OlkChromeUI",
+              "@rpath/OlkHubModuleUI.framework/Versions/A/OlkHubModuleUI",
+              "@rpath/OlkMailUIKit.framework/Versions/A/OlkMailUIKit",
+              "@rpath/OlkMsoHttpConnection.framework/Versions/A/OlkMsoHttpConnection",
+              "@rpath/OlkUIKit.framework/Versions/A/OlkUIKit",
+              "@rpath/OutlookCore.framework/Versions/A/OutlookCore",
+              "@rpath/OutlookFoundation.framework/Versions/A/OutlookFoundation",
+              "@rpath/OutlookOAuth_Legacy.framework/Versions/A/OutlookOAuth_Legacy",
+              "@rpath/OutlookRightsFramework.framework/Versions/A/OutlookRightsFramework",
+              "@rpath/OutlookShadowAuth.framework/Versions/A/OutlookShadowAuth",
+              "@rpath/PowerLiftKit.framework/Versions/A/PowerLiftKit",
+              "@rpath/WLMKernel.framework/Versions/A/WLMKernel",
+              "@rpath/WidgetFoundations.framework/Versions/A/WidgetFoundations",
+              "@rpath/WidgetModelKit.framework/Versions/A/WidgetModelKit",
+              "@rpath/WordMail.framework/Versions/A/WordMail",
+              "@rpath/mbuinstrument.framework/Versions/A/mbuinstrument",
+              "@rpath/mbukernel.framework/Versions/A/mbukernel",
+              "@rpath/mbulocale.framework/Versions/A/mbulocale",
+              "@rpath/merp.framework/Versions/A/merp",
+              "@rpath/mso20.framework/Versions/A/mso20",
+              "@rpath/mso30.framework/Versions/A/mso30",
+              "@rpath/mso40ui.framework/Versions/A/mso40ui",
+              "@rpath/mso99.framework/Versions/A/mso99",
+              "@rpath/osf.framework/Versions/A/osf",
+              "@rpath/osfstorage2.framework/Versions/A/osfstorage2"
+            ]
+          }
+        ],
+        "entropy": 6.8139
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/Burp Suite Professional.app/Contents/MacOS/JavaApplicationStub",
+      "analysis": {
+        "target": "JavaApplicationStub",
+        "imports": [
+          {
+            "path": "JavaApplicationStub",
+            "binary": "macho",
+            "imports": [
+              "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa",
+              "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+              "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libobjc.A.dylib",
+              "/usr/lib/libz.1.dylib"
+            ]
+          }
+        ],
+        "entropy": 3.5063
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager",
+      "analysis": {
+        "target": "Karabiner-VirtualHIDDevice-Manager",
+        "imports": [
+          {
+            "path": "Karabiner-VirtualHIDDevice-Manager",
+            "binary": "macho",
+            "imports": [
+              "/Applications/.Karabiner-VirtualHIDDevice-Manager.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Manager",
+              "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+              "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+              "/System/Library/Frameworks/SystemExtensions.framework/Versions/A/SystemExtensions",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libobjc.A.dylib",
+              "/usr/lib/swift/libswiftCore.dylib",
+              "/usr/lib/swift/libswiftCoreFoundation.dylib",
+              "/usr/lib/swift/libswiftCoreImage.dylib",
+              "/usr/lib/swift/libswiftDarwin.dylib",
+              "/usr/lib/swift/libswiftDispatch.dylib",
+              "/usr/lib/swift/libswiftIOKit.dylib",
+              "/usr/lib/swift/libswiftMetal.dylib",
+              "/usr/lib/swift/libswiftOSLog.dylib",
+              "/usr/lib/swift/libswiftObjectiveC.dylib",
+              "/usr/lib/swift/libswiftQuartzCore.dylib",
+              "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+              "/usr/lib/swift/libswiftXPC.dylib",
+              "/usr/lib/swift/libswift_Concurrency.dylib",
+              "/usr/lib/swift/libswiftos.dylib",
+              "/usr/lib/swift/libswiftsimd.dylib"
+            ]
+          }
+        ],
+        "entropy": 4.8368
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/Pages.app/Contents/MacOS/Pages",
+      "analysis": {
+        "target": "Pages",
+        "imports": [
+          {
+            "path": "Pages",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Pages.app/Contents/MacOS/Pages",
+              "/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation",
+              "/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate",
+              "/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts",
+              "/System/Library/Frameworks/AddressBook.framework/Versions/A/AddressBook",
+              "/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents",
+              "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+              "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+              "/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon",
+              "/System/Library/Frameworks/Combine.framework/Versions/A/Combine",
+              "/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts",
+              "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+              "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+              "/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage",
+              "/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia",
+              "/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText",
+              "/System/Library/Frameworks/CoreTransferable.framework/Versions/A/CoreTransferable",
+              "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+              "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+              "/System/Library/Frameworks/Intents.framework/Versions/A/Intents",
+              "/System/Library/Frameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication",
+              "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+              "/System/Library/Frameworks/MetalKit.framework/Versions/A/MetalKit",
+              "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+              "/System/Library/Frameworks/SharedWithYou.framework/Versions/A/SharedWithYou",
+              "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+              "/System/Library/Frameworks/Vision.framework/Versions/A/Vision",
+              "/usr/lib/libDiagnosticMessagesClient.dylib",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "/usr/lib/libcompression.dylib",
+              "/usr/lib/libicucore.A.dylib",
+              "/usr/lib/libobjc.A.dylib",
+              "/usr/lib/libsqlite3.dylib",
+              "/usr/lib/libxml2.2.dylib",
+              "/usr/lib/libz.1.dylib",
+              "/usr/lib/swift/libswiftAVFoundation.dylib",
+              "/usr/lib/swift/libswiftCompression.dylib",
+              "/usr/lib/swift/libswiftCore.dylib",
+              "/usr/lib/swift/libswiftCoreAudio.dylib",
+              "/usr/lib/swift/libswiftCoreFoundation.dylib",
+              "/usr/lib/swift/libswiftCoreGraphics.dylib",
+              "/usr/lib/swift/libswiftCoreImage.dylib",
+              "/usr/lib/swift/libswiftCoreLocation.dylib",
+              "/usr/lib/swift/libswiftCoreMIDI.dylib",
+              "/usr/lib/swift/libswiftCoreMedia.dylib",
+              "/usr/lib/swift/libswiftDarwin.dylib",
+              "/usr/lib/swift/libswiftDispatch.dylib",
+              "/usr/lib/swift/libswiftFileProvider.dylib",
+              "/usr/lib/swift/libswiftGLKit.dylib",
+              "/usr/lib/swift/libswiftIOKit.dylib",
+              "/usr/lib/swift/libswiftIntents.dylib",
+              "/usr/lib/swift/libswiftMetal.dylib",
+              "/usr/lib/swift/libswiftModelIO.dylib",
+              "/usr/lib/swift/libswiftNaturalLanguage.dylib",
+              "/usr/lib/swift/libswiftOSLog.dylib",
+              "/usr/lib/swift/libswiftObjectiveC.dylib",
+              "/usr/lib/swift/libswiftQuartzCore.dylib",
+              "/usr/lib/swift/libswiftSceneKit.dylib",
+              "/usr/lib/swift/libswiftSpatial.dylib",
+              "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+              "/usr/lib/swift/libswiftWebKit.dylib",
+              "/usr/lib/swift/libswiftXPC.dylib",
+              "/usr/lib/swift/libswift_Concurrency.dylib",
+              "/usr/lib/swift/libswiftos.dylib",
+              "/usr/lib/swift/libswiftsimd.dylib",
+              "@rpath/AppAnalytics.framework/Versions/A/AppAnalytics",
+              "@rpath/EquationKit.framework/Versions/A/EquationKit",
+              "@rpath/TSAccessibility.framework/Versions/A/TSAccessibility",
+              "@rpath/TSApplication.framework/Versions/A/TSApplication",
+              "@rpath/TSCalculationEngine.framework/Versions/A/TSCalculationEngine",
+              "@rpath/TSCharts.framework/Versions/A/TSCharts",
+              "@rpath/TSCollaborationKit.framework/Versions/A/TSCollaborationKit",
+              "@rpath/TSContentLanguage.framework/Versions/A/TSContentLanguage",
+              "@rpath/TSCoreSOS.framework/Versions/A/TSCoreSOS",
+              "@rpath/TSDrawables.framework/Versions/A/TSDrawables",
+              "@rpath/TSKit.framework/Versions/A/TSKit",
+              "@rpath/TSPersistence.framework/Versions/A/TSPersistence",
+              "@rpath/TSStyles.framework/Versions/A/TSStyles",
+              "@rpath/TSTables.framework/Versions/A/TSTables",
+              "@rpath/TSText.framework/Versions/A/TSText",
+              "@rpath/TSUtility.framework/Versions/A/TSUtility"
+            ]
+          }
+        ],
+        "entropy": 6.7186
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/Wine Stable.app/Contents/MacOS/wine",
+      "analysis": {
+        "target": "wine",
+        "imports": [
+          {
+            "path": "wine",
+            "binary": "macho",
+            "imports": [
+              "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+              "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa",
+              "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+              "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libobjc.A.dylib"
+            ]
+          }
+        ],
+        "entropy": 3.8394
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
+      "analysis": {
+        "target": "Microsoft OneNote",
+        "imports": [
+          {
+            "path": "Microsoft OneNote",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Microsoft",
+              "/System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio",
+              "/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation",
+              "/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate",
+              "/System/Library/Frameworks/AddressBook.framework/Versions/A/AddressBook",
+              "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+              "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+              "/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork",
+              "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa",
+              "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+              "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+              "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+              "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+              "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+              "/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/JavaScriptCore",
+              "/System/Library/Frameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication",
+              "/System/Library/Frameworks/Network.framework/Versions/A/Network",
+              "/System/Library/Frameworks/PDFKit.framework/Versions/A/PDFKit",
+              "/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz",
+              "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+              "/System/Library/Frameworks/QuickLookUI.framework/Versions/A/QuickLookUI",
+              "/System/Library/Frameworks/ScreenCaptureKit.framework/Versions/A/ScreenCaptureKit",
+              "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+              "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
+              "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",
+              "/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications",
+              "/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "/usr/lib/libobjc.A.dylib",
+              "/usr/lib/libsqlite3.dylib",
+              "/usr/lib/libxml2.2.dylib",
+              "/usr/lib/libz.1.dylib",
+              "/usr/lib/swift/libswiftCore.dylib",
+              "/usr/lib/swift/libswiftCoreFoundation.dylib",
+              "/usr/lib/swift/libswiftCoreImage.dylib",
+              "/usr/lib/swift/libswiftDarwin.dylib",
+              "/usr/lib/swift/libswiftDispatch.dylib",
+              "/usr/lib/swift/libswiftIOKit.dylib",
+              "/usr/lib/swift/libswiftMetal.dylib",
+              "/usr/lib/swift/libswiftOSLog.dylib",
+              "/usr/lib/swift/libswiftObjectiveC.dylib",
+              "/usr/lib/swift/libswiftQuartzCore.dylib",
+              "/usr/lib/swift/libswiftSpatial.dylib",
+              "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+              "/usr/lib/swift/libswiftXPC.dylib",
+              "/usr/lib/swift/libswiftos.dylib",
+              "/usr/lib/swift/libswiftsimd.dylib",
+              "@rpath/ADAL4.framework/Versions/A/ADAL4",
+              "@rpath/COMBase.framework/Versions/A/COMBase",
+              "@rpath/CocoaUI.framework/Versions/A/CocoaUI",
+              "@rpath/FluentUI.framework/Versions/A/FluentUI",
+              "@rpath/Gfx.framework/Versions/A/Gfx",
+              "@rpath/Hlink.framework/Versions/A/Hlink",
+              "@rpath/MSXML.framework/Versions/A/MSXML",
+              "@rpath/MicrosoftCSI.framework/Versions/A/MicrosoftCSI",
+              "@rpath/MicrosoftCloudServices.framework/Versions/A/MicrosoftCloudServices",
+              "@rpath/MicrosoftCredui.framework/Versions/A/MicrosoftCredui",
+              "@rpath/MicrosoftFontLibrary.framework/Versions/A/MicrosoftFontLibrary",
+              "@rpath/MicrosoftRichEdit.framework/Versions/A/MicrosoftRichEdit",
+              "@rpath/MsoCF.framework/Versions/A/MsoCF",
+              "@rpath/OLE.framework/Versions/A/OLE",
+              "@rpath/OLEAutomation.framework/Versions/A/OLEAutomation",
+              "@rpath/Uniscribe.framework/Versions/A/Uniscribe",
+              "@rpath/WLMGraphicsDevice.framework/Versions/A/WLMGraphicsDevice",
+              "@rpath/WLMKernel.framework/Versions/A/WLMKernel",
+              "@rpath/WinCrypto.framework/Versions/A/WinCrypto",
+              "@rpath/Xmllite.framework/Versions/A/Xmllite",
+              "@rpath/dwrite10.framework/Versions/A/dwrite10",
+              "@rpath/mbuinstrument.framework/Versions/A/mbuinstrument",
+              "@rpath/mbukernel.framework/Versions/A/mbukernel",
+              "@rpath/mbulocale.framework/Versions/A/mbulocale",
+              "@rpath/merp.framework/Versions/A/merp",
+              "@rpath/molc.framework/Versions/A/molc",
+              "@rpath/mso20.framework/Versions/A/mso20",
+              "@rpath/mso30.framework/Versions/A/mso30",
+              "@rpath/mso40ui.framework/Versions/A/mso40ui",
+              "@rpath/mso99.framework/Versions/A/mso99",
+              "@rpath/osfcore.framework/Versions/A/osfcore",
+              "@rpath/rpcrt4.framework/Versions/A/rpcrt4"
+            ]
+          }
+        ],
+        "entropy": 6.7076
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/Firefox.app/Contents/MacOS/firefox",
+      "analysis": {
+        "target": "firefox",
+        "imports": [
+          {
+            "path": "firefox",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Firefox.app/Contents/MacOS/firefox",
+              "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "@rpath/libmozglue.dylib"
+            ]
+          }
+        ],
+        "entropy": 4.1192
+      }
+    },
+    {
+      "class": "HELPER_BRIDGE",
+      "file": "/Applications/Firefox.app/Contents/MacOS/crashhelper",
+      "analysis": {
+        "target": "crashhelper",
+        "imports": [
+          {
+            "path": "crashhelper",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Firefox.app/Contents/MacOS/crashhelper",
+              "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+              "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "/usr/lib/libobjc.A.dylib",
+              "@rpath/libmozglue.dylib"
+            ]
+          }
+        ],
+        "entropy": 6.447
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/Firefox.app/Contents/MacOS/pingsender",
+      "analysis": {
+        "target": "pingsender",
+        "imports": [
+          {
+            "path": "pingsender",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Firefox.app/Contents/MacOS/pingsender",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "@rpath/libmozglue.dylib"
+            ]
+          }
+        ],
+        "entropy": 4.7807
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/Firefox.app/Contents/MacOS/libfreebl3.dylib",
+      "analysis": {
+        "target": "libfreebl3.dylib",
+        "imports": [
+          {
+            "path": "libfreebl3.dylib",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Firefox.app/Contents/MacOS/libfreebl3.dylib",
+              "/usr/lib/libSystem.B.dylib",
+              "@rpath/libfreebl3.dylib",
+              "@rpath/libnss3.dylib"
+            ]
+          }
+        ],
+        "entropy": 6.6375
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/Firefox.app/Contents/MacOS/liblgpllibs.dylib",
+      "analysis": {
+        "target": "liblgpllibs.dylib",
+        "imports": [
+          {
+            "path": "liblgpllibs.dylib",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Firefox.app/Contents/MacOS/liblgpllibs.dylib",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "@rpath/liblgpllibs.dylib",
+              "@rpath/libmozglue.dylib"
+            ]
+          }
+        ],
+        "entropy": 5.9741
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/Firefox.app/Contents/MacOS/libmozinference.dylib",
+      "analysis": {
+        "target": "libmozinference.dylib",
+        "imports": [
+          {
+            "path": "libmozinference.dylib",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Firefox.app/Contents/MacOS/libmozinference.dylib",
+              "/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "@rpath/libmozglue.dylib",
+              "@rpath/libmozinference.dylib"
+            ]
+          }
+        ],
+        "entropy": 6.7079
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/Firefox.app/Contents/MacOS/nmhproxy",
+      "analysis": {
+        "target": "nmhproxy",
+        "imports": [
+          {
+            "path": "nmhproxy",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Firefox.app/Contents/MacOS/nmhproxy",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libiconv.2.dylib"
+            ]
+          }
+        ],
+        "entropy": 6.4769
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/Firefox.app/Contents/MacOS/libsoftokn3.dylib",
+      "analysis": {
+        "target": "libsoftokn3.dylib",
+        "imports": [
+          {
+            "path": "libsoftokn3.dylib",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Firefox.app/Contents/MacOS/libsoftokn3.dylib",
+              "/usr/lib/libSystem.B.dylib",
+              "@rpath/libnss3.dylib",
+              "@rpath/libsoftokn3.dylib"
+            ]
+          }
+        ],
+        "entropy": 6.1654
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/Firefox.app/Contents/MacOS/libmozavutil.dylib",
+      "analysis": {
+        "target": "libmozavutil.dylib",
+        "imports": [
+          {
+            "path": "libmozavutil.dylib",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Firefox.app/Contents/MacOS/libmozavutil.dylib",
+              "/usr/lib/libSystem.B.dylib",
+              "@rpath/libgkcodecs.dylib",
+              "@rpath/libmozavutil.dylib"
+            ]
+          }
+        ],
+        "entropy": 6.3277
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/Firefox.app/Contents/MacOS/libmozglue.dylib",
+      "analysis": {
+        "target": "libmozglue.dylib",
+        "imports": [
+          {
+            "path": "libmozglue.dylib",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Firefox.app/Contents/MacOS/libmozglue.dylib",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "@rpath/libmozglue.dylib"
+            ]
+          }
+        ],
+        "entropy": 6.6183
+      }
+    },
+    {
+      "class": "PACKED_OR_PROTECTED",
+      "file": "/Applications/Firefox.app/Contents/MacOS/libgkcodecs.dylib",
+      "analysis": {
+        "target": "libgkcodecs.dylib",
+        "imports": [
+          {
+            "path": "libgkcodecs.dylib",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Firefox.app/Contents/MacOS/libgkcodecs.dylib",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "@rpath/libgkcodecs.dylib",
+              "@rpath/libmozglue.dylib"
+            ]
+          }
+        ],
+        "entropy": 6.9507
+      }
+    },
+    {
+      "class": "PACKED_OR_PROTECTED",
+      "file": "/Applications/Firefox.app/Contents/MacOS/libmozavcodec.dylib",
+      "analysis": {
+        "target": "libmozavcodec.dylib",
+        "imports": [
+          {
+            "path": "libmozavcodec.dylib",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Firefox.app/Contents/MacOS/libmozavcodec.dylib",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "@rpath/libgkcodecs.dylib",
+              "@rpath/libmozavcodec.dylib",
+              "@rpath/libmozavutil.dylib"
+            ]
+          }
+        ],
+        "entropy": 7.0684
+      }
+    },
+    {
+      "class": "PACKED_OR_PROTECTED",
+      "file": "/Applications/Firefox.app/Contents/MacOS/libonnxruntime.dylib",
+      "analysis": {
+        "target": "libonnxruntime.dylib",
+        "imports": [
+          {
+            "path": "libonnxruntime.dylib",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Firefox.app/Contents/MacOS/libonnxruntime.dylib",
+              "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+              "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "/usr/lib/libiconv.2.dylib",
+              "@rpath/libonnxruntime.1.22.0.dylib"
+            ]
+          }
+        ],
+        "entropy": 6.9241
+      }
+    },
+    {
+      "class": "NATIVE",
+      "file": "/Applications/Firefox.app/Contents/MacOS/libnss3.dylib",
+      "analysis": {
+        "target": "libnss3.dylib",
+        "imports": [
+          {
+            "path": "libnss3.dylib",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Firefox.app/Contents/MacOS/libnss3.dylib",
+              "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+              "/usr/lib/libSystem.B.dylib",
+              "@rpath/libmozglue.dylib",
+              "@rpath/libnss3.dylib"
+            ]
+          }
+        ],
+        "entropy": 6.7204
+      }
+    },
+    {
+      "class": "ELECTRON_PRELOAD_RCE",
+      "file": "/Applications/Discord.app/Contents/MacOS/Discord",
+      "analysis": {
+        "target": "Discord",
+        "imports": [
+          {
+            "path": "Discord",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Discord.app/Contents/MacOS/Discord",
+              "/usr/lib/libSystem.B.dylib",
+              "@rpath/Electron"
+            ]
+          }
+        ],
+        "entropy": 2.0055
+      }
+    },
+    {
+      "class": "QT_PLUGIN_RPATH_HIJACK,RELATIVE_RPATH_PIVOT",
+      "file": "/Applications/Webull Desktop.app/Contents/MacOS/Webull Desktop",
+      "analysis": {
+        "target": "Webull Desktop",
+        "imports": [
+          {
+            "path": "Webull Desktop",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Webull",
+              "/System/Library/Frameworks/AGL.framework/Versions/A/AGL",
+              "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+              "/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon",
+              "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa",
+              "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+              "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+              "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+              "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+              "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+              "/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "/usr/lib/libobjc.A.dylib",
+              "@executable_path/../Frameworks/libwbbasecore.dylib",
+              "@executable_path/../Frameworks/libwbbasestore.dylib",
+              "@executable_path/../Frameworks/libwbbaseui.dylib",
+              "@executable_path/../Frameworks/libwbcommonui.dylib",
+              "@executable_path/../Frameworks/libwbgrpc.dylib",
+              "@executable_path/../Frameworks/libwbhttpsclient.dylib",
+              "@executable_path/../Frameworks/libwbmqtt.dylib",
+              "@executable_path/../Frameworks/libwbstorecommon.dylib",
+              "@executable_path/../Frameworks/libwbuiframeworkmanager.dylib",
+              "@executable_path/../Frameworks/libwbupdater.dylib",
+              "@rpath/QtAV.framework/Versions/1/QtAV",
+              "@rpath/QtAVWidgets.framework/Versions/1/QtAVWidgets",
+              "@rpath/QtConcurrent.framework/Versions/5/QtConcurrent",
+              "@rpath/QtCore.framework/Versions/5/QtCore",
+              "@rpath/QtGui.framework/Versions/5/QtGui",
+              "@rpath/QtNetwork.framework/Versions/5/QtNetwork",
+              "@rpath/QtOpenGL.framework/Versions/5/QtOpenGL",
+              "@rpath/QtQml.framework/Versions/5/QtQml",
+              "@rpath/QtSql.framework/Versions/5/QtSql",
+              "@rpath/QtWidgets.framework/Versions/5/QtWidgets",
+              "@rpath/libsentry.dylib"
+            ]
+          }
+        ],
+        "entropy": 6.209
+      }
+    },
+    {
+      "class": "HELPER_BRIDGE",
+      "file": "/Applications/Webull Desktop.app/Contents/MacOS/crashpad_handler",
+      "analysis": {
+        "target": "crashpad_handler",
+        "imports": [
+          {
+            "path": "crashpad_handler",
+            "binary": "macho",
+            "imports": [
+              "/Applications/Webull",
+              "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+              "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+              "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+              "/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText",
+              "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+              "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+              "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+              "/usr/lib/libSystem.B.dylib",
+              "/usr/lib/libbsm.0.dylib",
+              "/usr/lib/libc++.1.dylib",
+              "/usr/lib/libobjc.A.dylib",
+              "/usr/lib/libz.1.dylib"
+            ]
+          }
+        ],
+        "entropy": 6.2036
+      }
+    }
+  ]
+}
